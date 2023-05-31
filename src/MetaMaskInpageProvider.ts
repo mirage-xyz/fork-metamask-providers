@@ -79,9 +79,9 @@ export class MetaMaskInpageProvider extends AbstractStreamProvider {
   public networkVersion: string | null;
 
   /**
-   * Indicating that this provider is a MetaMask provider.
+   * Indicating that this provider is a Mirage provider.
    */
-  public readonly isMetaMask: true;
+  public readonly isMirage: true;
 
   /**
    * Creates a new `MetaMaskInpageProvider`.
