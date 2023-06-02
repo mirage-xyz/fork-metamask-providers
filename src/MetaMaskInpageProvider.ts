@@ -119,7 +119,7 @@ export class MetaMaskInpageProvider extends AbstractStreamProvider {
     this._initializeStateAsync();
 
     this.networkVersion = null;
-    this.isMetaMask = true;
+    this.isMirage = true;
 
     this._sendSync = this._sendSync.bind(this);
     this.enable = this.enable.bind(this);
